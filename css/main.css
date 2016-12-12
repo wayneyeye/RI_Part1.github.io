@@ -17,13 +17,21 @@ body {
 }
 
 article {
+	width: 50em;
+	margin: 0 auto;
+}
 
+.header {
+	width: 50em;
+	margin: 0 auto;
 }
 
 h1 {
-
+	width: 100%;
 }
 
 img {
-
+	width: calc((100% - 40px));
+	margin: 0 auto;
+	max-width: 100%;
 }
