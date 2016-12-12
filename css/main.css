@@ -35,3 +35,13 @@ img {
 	margin: 0 auto;
 	max-width: 100%;
 }
+
+footer{
+	width: 50em;
+	margin: 0 auto;
+}
+
+#flourish {
+	max-height: 30em;
+	top: 350px;
+}
