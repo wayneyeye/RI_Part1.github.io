@@ -12,6 +12,7 @@ body {
 
 article {
 	width: 90vw;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -31,6 +32,7 @@ h2 {
 	text-shadow: 2px 2px #ff0000;
 	font
 	width: 90vw;
+	max-width: 960px;
 	margin: 0 auto;
 	display: -webkit-flex;
 	-webkit-flex-wrap: wrap;
@@ -52,6 +54,7 @@ img {
 
 footer{
 	width: 90vw;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
