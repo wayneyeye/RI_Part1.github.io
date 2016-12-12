@@ -1,47 +1,84 @@
-/*
+@import url(http://weloveiconfonts.com/api/?family=zocial);
 
-Your styles go here!
-
-Hint! You'll probably want to start by styling:
-  * <body>
-  * <article>
-  * <h1>
-  * <img>
-
-I've left some boilerplate below for you.
-
-*/
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
 
 body {
 
 }
 
+
 article {
-	width: 50em;
+	width: 90vw;
 	margin: 0 auto;
+}
+
+p {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+h2 {
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .header {
-	width: 50em;
+	font-family: 'Bungee', cursive;
+	color: orange;
+	text-shadow: 2px 2px #ff0000;
+	font
+	width: 90vw;
 	margin: 0 auto;
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 h1 {
-	width: 100%;
+	width: 70%;
+	padding-top: 30px;
+	vertical-align: bottom;
 }
 
 img {
-	width: calc((100% - 40px));
+	width: calc((100% - 0px));
 	margin: 0 auto;
 	max-width: 100%;
 }
 
 footer{
-	width: 50em;
+	width: 90vw;
 	margin: 0 auto;
 }
 
 #flourish {
 	max-height: 30em;
 	top: 350px;
+}
+
+#logopic {
+	max-width: 100px;
+}
+
+.social_font{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 2.5em;
+	text-shadow: 3px 3px 3px #aaa;
+	list-style: none;
+	display: flex;
+}
+
+.social_icon{
+	width: 3em;
+	text-decoration: none;
+	color: #e84141;
+}
+
+li {
+	width: 2em;
 }
