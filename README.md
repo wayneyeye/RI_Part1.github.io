@@ -1,4 +1,6 @@
 # Responsive Images: Project Part 1 #
+##To visit##
+Goto: https://wayneyeye.github.io/RI_part1/.
 
 ## Your Goals: ##
 
